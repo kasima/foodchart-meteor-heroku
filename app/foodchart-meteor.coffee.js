@@ -47,7 +47,7 @@ if (Meteor.isClient) {
         }
       });
     },
-    'click .delete': function(event) {
+    'click .btn-delete': function(event) {
       return People.remove(this._id);
     }
   };
